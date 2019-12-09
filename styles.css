@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 30px;
+  background-color: #4c4c4c;
+}
+
+.logo a{
+    display: flex;
+    color: #9fa0a3;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-family: 'Black Ops One', cursive;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.nav-links li{
+    list-style: none;
+    font-size: medium;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.nav-links a{
+    color: whitesmoke;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: small;
+    
+}
+
+.nav-links li:hover{
+    background-color: silver;
+}
+
+body {
+    background-color: whitesmoke;
+    border: solid #3F0404;
+}
+
+.body-div {
+    background-color: #9fa0a3;
+    display: flex;
+    flex-direction: row;
+    color: #4c4c4c;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.body-div h2 {
+    color: black;
+    text-align: center;
+}
+
+img {
+    border-radius: 10px;
+}
+
+section {
+    border: solid black 1px;
+    border-radius: 10px;
+    margin: 10px 50px;
+}
+
+.burger div{
+    width: 25px;
+    height: 25px;
+    color: whitesmoke;
+    margin: 5px;
+}
+
+footer {
+    min-height: 150px;
+  background-color: #4c4c4c;
+}
